@@ -1,0 +1,42 @@
+.about {
+    width: 100%;
+    margin: 3rem 0;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    flex-wrap: wrap;
+    height: 100%;
+
+}
+.texto-info-personal{
+    text-align: inherit;
+}
+.about .informacion-personal{
+
+    
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+}
+.about .informacion-personal p{
+    margin: 1.2rem 0;
+}
+.about .skills{
+ max-width: 700px;
+}
+.tecnologias h4 ,.informacion-personal h4{
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.7rem;
+}
+.tecnologias-conocidas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tecnologias-conocidas li {
+    margin: 0.5rem 0;
+}
